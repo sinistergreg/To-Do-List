@@ -99,9 +99,20 @@ Create an input that takes in a task and adds it to your to do list.
 
 # Day 2
 
-Today you will be creating your to do list page. 
-For this page you should be able to add a item, 
+Today you will be creating your To Do List page. 
+On this page you will be able to add the list of items, 
 delete an item, edit and item and mark the item as completed. 
+
+However please note the following should be on each page 
+
+- ToDo.js (the task and actions such as - delete, edit, add should be inside this file) 
+
+
+- ToDoList.js (the list of items that will be displayed) You may also include a logout and complete button on this page as well. 
+
+- ToDoForm.js(The input form to add to the list)
+
+
 
 ### 1. Create mock data to test the application
 
