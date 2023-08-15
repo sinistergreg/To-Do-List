@@ -43,3 +43,7 @@ display: none;
      background-color: rgb(14, 14, 113);
 
   }
+
+  .error h1{
+      color: blue;
+  }

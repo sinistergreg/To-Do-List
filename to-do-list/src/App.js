@@ -1,6 +1,8 @@
 import './App.css';
+import {BrowserRouter, Route, Routes } from 'react-router-dom'
 import SignUp from './components/SignUp/SignUp';
-// import {BrowserRouter, Route, Routes } from 'react-router-dom'
+import ToDo from './components/ToDo/ToDo';
+
 
 
 function App() {
@@ -8,15 +10,14 @@ function App() {
     <div className="App">
  
 
- <SignUp />
-{/* 
 <BrowserRouter>
 
   <Routes>
   <Route path="/" element={<SignUp />} />
+  <Route path="/todo" element={<ToDo />}/>
   </Routes>
 
-</BrowserRouter> */}
+</BrowserRouter>
 
 
     
