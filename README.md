@@ -103,7 +103,7 @@ Today you will be creating your to do list page.
 For this page you should be able to add a item, 
 delete an item, edit and item and mark the item as completed. 
 
-1. Create mock data to test the application
+### 1. Create mock data to test the application
 
 You can first start off this section by creating a JSON file with a list of 3-4 items. You may also just add these items you ToDoList.js file. 
 
@@ -133,11 +133,11 @@ const [items, setItems] = useState ([
 ```
 
 
-2. Read list of to-dos and display
+### 2. Read list of to-dos and display
 
 Now we want to test our ability to read a set of test data(our items). 
 
-3. Map over items in ToDoList.js
+### 3. Map over items in ToDoList.js
 Now we need to map over the items in our array and create individual todo components in our ToDoList.js file. 
 
 
@@ -150,7 +150,7 @@ Now we need to map over the items in our array and create individual todo compon
         ))}
 ```
 
-4. In ToDo.js 
+### 4. In ToDo.js 
  From the ToDo component is the actual task that is on our list. 
   - We will also need to make use of the complete property on the todo object to indicate whether or not something is decorated with a strikethrough. 
   - Checkbox (checks the item and strikethrough)
@@ -160,7 +160,7 @@ Now we need to map over the items in our array and create individual todo compon
 Resources: [adding checkbox](https://contactmentor.com/checkbox-list-react-js-example/?expand_article=1)
 
 
-5. Add a logout and completed task button
+### 5. Add a logout and completed task button
 
 Create two buttons. One button that directs you back to the signup page and a completed button that directs you to the Completed task page. 
 
