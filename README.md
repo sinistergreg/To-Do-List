@@ -79,6 +79,10 @@ Once the mockup is created you will go back to your React application and build 
 2. Sign Up - 30mins-1hr
 You will have create a sign in page similar to the one below. Add your own styling to make it more unique. 
 
+Make sure to use the useState() hook to set your email, password and username. 
+
+Also, create an handleSubmit for the for so that an action can be directed to the ToDo page after the submit the form. 
+
 - This page will consist of a title.
 - A small message prompting the user to sign up.
 - An username, email and password field. 
@@ -94,3 +98,72 @@ Create an input that takes in a task and adds it to your to do list.
 
 
 # Day 2
+
+Today you will be creating your to do list page. 
+For this page you should be able to add a item, 
+delete an item, edit and item and mark the item as completed. 
+
+1. Create mock data to test the application
+
+You can first start off this section by creating a JSON file with a list of 3-4 items. You may also just add these items you ToDoList.js file. 
+
+You want to make sure you set a id, title and state if the item has been completed or not. 
+
+```
+
+const [items, setItems] = useState ([
+ {
+
+        id: 1,
+        title: "Grab some Pizza",
+        completed: true
+    },
+    {
+         id: 2,
+         title: "Do your workout",
+        completed: true
+    },
+    {
+         id: 3,
+        title: "Hangout with friends",
+        completed: false
+    }
+
+    ])
+```
+
+
+2. Read list of to-dos and display
+
+Now we want to test our ability to read a set of test data(our items). 
+
+3. Map over items in ToDoList.js
+Now we need to map over the items in our array and create individual todo components in our ToDoList.js file. 
+
+
+```
+     {tasks.map((task) => (
+            <ToDo
+                task={task}
+
+            />
+        ))}
+```
+
+4. In ToDo.js 
+ From the ToDo component is the actual task that is on our list. 
+  - We will also need to make use of the complete property on the todo object to indicate whether or not something is decorated with a strikethrough. 
+  - Checkbox (checks the item and strikethrough)
+  - An edit button (allows you to edit the item)
+  - A delete button (allows you to delete the item)
+
+Resources: [adding checkbox](https://contactmentor.com/checkbox-list-react-js-example/?expand_article=1)
+
+
+5. Add a logout and completed task button
+
+Create two buttons. One button that directs you back to the signup page and a completed button that directs you to the Completed task page. 
+
+
+
+# Day 3
