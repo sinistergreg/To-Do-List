@@ -5,7 +5,8 @@ import {useNavigate, Link} from 'react-router-dom';
 
 
 function SignUp() {
-    const navigate = useNavigate();
+const navigate = useNavigate();
+
 const [name, setName] = useState('');
 const [email, setEmail] = useState('');
 const [password, setPassword] = useState('');
@@ -21,11 +22,11 @@ const handleSignUp = (e) => {
     setError(true);
     } else {
     setSubmitted(true);
-    setError(false);
+    // setError(false);
     setPassword('')
     setEmail('')
     setName('')
-    navigate('/todo')
+    navigate('/todolist')
 
     }
     };
@@ -71,6 +72,7 @@ const resetForm = () => {
 
 
 <Header />
+
 <form className="form">
 
 
@@ -98,7 +100,7 @@ value={password} type="password" />
 
 
 <button onClick={handleSignUp} className="btn" type="submit"> Sign Up </button>
-
+{/* <Link to={"./todolist"}> Sign up </Link> */}
 
 
 <button onClick={() => resetForm()} className="btn" type="reset"> Clear</button>

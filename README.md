@@ -62,7 +62,7 @@ Then, Create a presentational component that will display a header identifying t
 
 # DAY 1 
 
-Each section will be broken into 7 days. We will work step by step to make sure each task for this assignment is completed in a timely manner. 
+Each section will be broken into 5 days. We will work step by step to make sure each task for this assignment is completed in a timely manner. 
 
 
 1. Create Figma Mockup - 20 mins
@@ -176,5 +176,12 @@ Resources: [adding checkbox](https://contactmentor.com/checkbox-list-react-js-ex
 Create two buttons. One button that directs you back to the signup page and a completed button that directs you to the Completed task page. 
 
 
-
 # Day 3
+
+1. Completed task page 
+Once you mark a task as complete it displays on the completed page. 
+
+
+# Bonus
+1. Set a pending for the number of task that after left to be completed.
+2. Sign Page that saves the user information.

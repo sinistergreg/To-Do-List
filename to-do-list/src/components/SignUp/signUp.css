@@ -2,9 +2,8 @@
     background-color: teal;
     padding: 10%;
     padding-top: 5%
-  
+ 
 }
-
 
 
 .label{
@@ -31,7 +30,7 @@ display: none;
     
   }
 
-  button {
+ .btn {
       border-radius: 30px;
       padding:20px;
       width: 300px;
@@ -44,6 +43,14 @@ display: none;
 
   }
 
-  .error h1{
+  /* .error h1{
       color: blue;
-  }
+  } */
+
+  .error{
+    /* display: block; */
+    background-color: blue;
+    color: white;
+   
+    
+    }
