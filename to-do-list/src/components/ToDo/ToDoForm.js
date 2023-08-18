@@ -20,11 +20,11 @@ function ToDoForm({ addTask}) {
     <div>
       
       <form onSubmit={handleSubmit}>
-                <input
-                    type="text"
+                <input 
+                    type="text" 
                     className="task"
                     value={value} 
-                    placeholder="Add a new task"
+                    placeholder="Add a new task" 
                     onChange={e => setValue(e.target.value)}
                 />
             </form>
